@@ -8,6 +8,9 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
         <activity
+            android:name=".RelativeActivity"
+            android:exported="false" />
+        <activity
             android:name=".ConstraintActivity"
             android:exported="false" />
         <activity
